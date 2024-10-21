@@ -13,7 +13,7 @@ const LanguageSwitcher = () => {
   const changeLanguage = (lng) => {
     i18n.changeLanguage(lng);
     setCurrentLang(lng);
-    setShowOptions(false); // Закрываем список после выбора
+    setShowOptions(false);
   };
 
   const getFlagAndLabel = (lang) => {

@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import { Menu, Button, Drawer } from "antd";
 import { MenuOutlined } from "@ant-design/icons";
 import "./Header.css";
-import logo from "../../core/img/Logo.png";
+import logo from "../../core/img/LogoTransfer.webp";
 import TransferInfo from "../TransferInfo";
 import LanguageSwitcher from "../../core/language/LanguageSwitcher";
 import { useTranslation } from "react-i18next";
@@ -58,7 +58,7 @@ const Header = () => {
     {
       label: (
         <a href="#contact" onClick={closeDrawer}>
-          {t("Contact")}
+          {t("RetCars")}
         </a>
       ),
       key: "contact",

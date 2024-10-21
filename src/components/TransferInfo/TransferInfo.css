@@ -23,6 +23,20 @@
   color: #fff;
 }
 
+.transfer-title {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: black;
+  font-size: 24px;
+  background-color: rgba(255, 255, 255, 0.7);
+  padding: 10px 20px;
+  border-radius: 8px;
+  font-weight: bold;
+  text-align: center;
+}
+
 .transfer-info-content {
   position: relative;
   z-index: 1;
